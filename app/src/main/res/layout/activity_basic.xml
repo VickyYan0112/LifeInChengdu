@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color4"
+    tools:context=".Basic.BasicActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="360dp"
+        android:layout_height="190dp"
+        android:paddingLeft="50dp"
+        android:paddingTop="10sp"
+        android:paddingRight="70dp"
+        app:srcCompat="@drawable/type" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"
+        android:text="          成都（Chengdu），简称蓉，是四川省省会，1993年被国务院确定为西南地区的科技、商贸、金融中心和交通、通讯枢纽，是设立外国领事馆数量最多、开通国际航线数量最多的中西部城市。" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="50dp"
+        android:paddingBottom="10dp"
+        android:lineSpacingExtra="2dp"
+        android:textColor="@color/color2"
+        android:layout_marginBottom="200dp"
+        android:textSize="15dp"
+        android:text="下戳了解更多" />
+
+    <Button
+        android:id="@+id/btn5"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="170dp"
+        android:onClick="onClick2"
+        android:text="旅游景点"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn6"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="110dp"
+        android:onClick="onClick3"
+        android:text="天气情况"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btn7"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="50dp"
+        android:onClick="onClick4"
+        android:text="美食小吃"
+        android:textSize="20dp" />
+</RelativeLayout>

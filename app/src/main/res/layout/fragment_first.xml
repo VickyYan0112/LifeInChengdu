@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/fragment_fourth"
+    android:id="@+id/fragment_first"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Fragment.FirstFragment">
@@ -10,13 +9,36 @@
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/color9"
+        android:background="@color/color4"
         android:orientation="vertical">
 
-        <ListView
-            android:id="@+id/ln1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
 
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="314dp"
+            android:layout_height="224dp"
+            android:layout_gravity="center"
+            android:paddingTop="30dp"
+            android:paddingBottom="20dp"
+            android:src="@drawable/jiutianlou" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20sp"
+            android:paddingBottom="20sp"
+            android:text="地理位置： 四川省成都市塔子山园内浅丘顶部" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
+            android:text='         "锦绣天府第一楼"--九天楼巍然坐落于成都市塔子山园内浅丘顶部，原名散花楼，始建于隋末，为蜀王杨秀所建。其名取自诗仙李白名诗《登锦城散花楼》中"今来一登望，如上九天游"。该楼高达70米，共13层，总建筑面积4千余平方米。该塔楼设计精巧，结构独特，运用现代建筑技术施工，钢筋混凝土框架仿木结构，融楼塔亭台为一体，古代建筑艺术和现代民间建筑艺术巧妙结合，建筑风格突出了地方特色，远看似塔，近看似楼，造型新颖独特，享有"塔山揽秀"的美誉。为便于游人登临，采用电梯和楼道结合的方式上、下。'
+
+            android:textSize="15sp" />
     </LinearLayout>
+
 </FrameLayout>
