@@ -18,7 +18,7 @@
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="303dp"
-            android:layout_height="270dp"
+            android:layout_height="200dp"
             android:layout_gravity="center"
             android:paddingTop="30dp"
             android:src="@drawable/qingyanggong" />
@@ -36,6 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:paddingLeft="10sp"
+            android:lineSpacingExtra="5dp"
             android:paddingRight="10sp"
             android:text='          青羊宫位于四川省成都市一环路西二段，被誉为"川西第一道观"、"西南第一丛林"，也是全国著名的道教宫观之一。始建于周朝，原名青羊肆。至明朝，唐朝所建殿宇毁于兵灾。现存建筑大多为清代康熙六至十年(公元1667年--公元1671年)陆续重建，占地面积约12万平方米。 青羊宫主要建筑有山门、三清殿、唐王殿等。宫内混元殿高大雄伟，八卦亭是其中保存最完整、造型最华贵的建筑，供奉着老子骑着青牛的塑像。青羊宫内最宝贵的文物是一部《道藏辑要》，是世界上保存最完整的版本，成为研究道教的珍贵资料。'
 

@@ -1,4 +1,4 @@
-package com.yan.LifeinChengdu.PageAdapter;
+package com.yan.LifeinChengdu.Adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

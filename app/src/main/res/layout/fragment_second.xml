@@ -16,7 +16,7 @@
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="303dp"
-            android:layout_height="270dp"
+            android:layout_height="250dp"
             android:layout_gravity="center"
             android:paddingTop="30dp"
             android:src="@drawable/ifs" />
@@ -34,6 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:paddingLeft="10sp"
+            android:lineSpacingExtra="5dp"
             android:paddingRight="10sp"
             android:text='          成都国际金融中心项目位于大慈路以南，红星路以东，江南馆街以北，纱帽街以西，净用土地面积82亩。为香港九龙仓投资的成都地标性建筑，2014年1月14日，成都国际金融中心商业整体开业，为成都带来更多高端的潮流品牌。整个项目设计由4座塔楼及裙楼组成，包括超五星级酒店、高端写字楼、高档酒店式公寓及高品位住宅等，其中主楼双塔最高达248米。'
 

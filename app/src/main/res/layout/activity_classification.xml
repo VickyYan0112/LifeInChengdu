@@ -19,8 +19,8 @@
         android:layout_centerHorizontal="true"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="26dp"
-        android:layout_marginEnd="101dp"
-        android:layout_marginRight="101dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginRight="115dp"
         android:paddingTop="80dp"
         android:paddingBottom="20dp"
         android:text="ChengDuEr's Life"
@@ -77,7 +77,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="60dp"
         android:onClick="onClick4"
-        android:text="美食小吃"
+        android:text="火锅美食"
         android:textSize="20dp" />
 
 
