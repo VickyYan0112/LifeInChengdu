@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListAdapter;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
@@ -36,14 +37,13 @@ public class HotPotActivity extends ListActivity implements AdapterView.OnItemCl
     private ArrayList<HashMap<String, String>> listItems2;//存放文字、图片信息
     private SimpleAdapter listItemAdapter2;//适配器
 
+
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         initListView();
         getListView().setOnItemClickListener(this);
 
-        //MyAdapter myAdapter = new MyAdapter(this,R.layout.list_item,listItems);
-        //this.setListAdapter(myAdapter);
 
         Thread thread = new Thread(this);
         thread.start();
@@ -159,17 +159,15 @@ public class HotPotActivity extends ListActivity implements AdapterView.OnItemCl
     }
 
     public void onItemClick(AdapterView<?> parent, View view, int position,long id){
-        Toast.makeText(this, "即将导航到火锅店 ", Toast.LENGTH_SHORT).show();
 
+        Toast.makeText(this, "即将导航到火锅店 ", Toast.LENGTH_SHORT).show();
         HashMap<String,String> map = (HashMap<String,String>) getListView().getItemAtPosition(position);
 
 
         TextView title2 = (TextView)view.findViewById(R.id.itemTitle1);
         TextView detail2 = (TextView)view.findViewById(R.id.itemDetail1);
-        String title3 = String.valueOf(title2.getText());
-        String detail3 = String.valueOf(detail2.getText());
-    }
+        final String title3 = String.valueOf(title2.getText());
 
 
-
+}
 }

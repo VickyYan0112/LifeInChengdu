@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
+import android.widget.ArrayAdapter;
+import android.widget.ListAdapter;
 import android.widget.SimpleAdapter;
 
 import com.yan.LifeinChengdu.R;
@@ -26,6 +28,7 @@ public class MyListActivity extends ListActivity implements Runnable{
     private final String TAG = "weather";
     private ArrayList<HashMap<String,String>> listItems;//存放文字、图片信息
     private SimpleAdapter listItemAdapter;//适配器
+    String data[] = {"小都儿努力加载中，请耐心等待"};
 
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -34,6 +37,8 @@ public class MyListActivity extends ListActivity implements Runnable{
 
         //MyAdapter myAdapter = new MyAdapter(this,R.layout.list_item,listItems);
         //this.setListAdapter(myAdapter);
+        ListAdapter adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,data);
+        setListAdapter(adapter);
 
         Thread t = new Thread(this);
         t.start();

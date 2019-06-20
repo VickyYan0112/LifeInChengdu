@@ -19,9 +19,12 @@
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
-
         <activity android:name=".Main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name=".Main.ClassificationActivity" />
         <activity android:name=".Travel.TravelActivity" />
@@ -29,15 +32,7 @@
         <activity android:name=".Weather.WeatherListActivity" />
         <activity android:name=".Weather.MyListActivity" />
         <activity android:name=".Food.FoodActivity" />
-        <activity android:name=".Food.HotPotActivity" >
-
-        </activity>
-        <activity android:name=".Food.TestActivity2">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".Food.HotPotActivity" />
     </application>
 
 </manifest>
