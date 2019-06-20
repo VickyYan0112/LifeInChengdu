@@ -4,13 +4,14 @@
     package="com.yan.LifeinChengdu">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/chengduer"
         android:label="@string/app_name"
         android:largeHeap="true"
+        android:scheme="baidumap"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
@@ -20,11 +21,7 @@
             android:required="false" />
 
         <activity android:name=".Main.MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".Main.ClassificationActivity" />
         <activity android:name=".Travel.TravelActivity" />
@@ -32,7 +29,15 @@
         <activity android:name=".Weather.WeatherListActivity" />
         <activity android:name=".Weather.MyListActivity" />
         <activity android:name=".Food.FoodActivity" />
-        <activity android:name=".Food.HotPotActivity"></activity>
+        <activity android:name=".Food.HotPotActivity" >
+
+        </activity>
+        <activity android:name=".Food.TestActivity2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

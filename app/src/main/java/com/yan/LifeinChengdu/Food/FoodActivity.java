@@ -4,12 +4,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 
-import com.yan.LifeinChengdu.Main.ClassificationActivity;
-import com.yan.LifeinChengdu.Main.MainActivity;
 import com.yan.LifeinChengdu.R;
 
 public class FoodActivity extends AppCompatActivity {
