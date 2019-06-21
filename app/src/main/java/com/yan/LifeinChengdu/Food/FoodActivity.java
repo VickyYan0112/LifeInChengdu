@@ -21,6 +21,10 @@ public class FoodActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_food);
 
+        //调用百度地图Web页面参考第三方代码，链接：https://blog.csdn.net/fjekin/article/details/51003603?_t=t
+        //参考代码已经放入TestAcitivity2和布局文件activity_test2.xml中
+
+
         addressText = (TextView) findViewById(R.id.id_address);
         navigationButton = (Button) findViewById(R.id.id_navigation);
         navigationButton.setOnClickListener(new View.OnClickListener() {
